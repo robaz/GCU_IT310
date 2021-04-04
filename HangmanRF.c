@@ -127,7 +127,7 @@ int main(void) {
 	int result, missedCount;
 	char guess;
 
-	if (isFile == 1 || line > 25)
+	if (isFile == 1 || strlen(line) > 25)
 	{
 		//Built-in words, these are used if word.txt is not present
 		int select;
