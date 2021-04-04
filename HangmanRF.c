@@ -92,7 +92,7 @@ int main(void) {
 			}
 
 		}
-		printf("count %d", count);
+		
 		fclose(wordFile);
 
 		//Reopens word.txt file to read in a random word
